@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="E:\Rushi-sir\maven-folderstructure\phonepe\credits\target/credits.zip">
+    <zipfileset includes="lib/**" dir="E:\Rushi-sir\maven-folderstructure\phonepe\credits\target"/>
+    <zipfileset includes="credits.jar" dir="E:\Rushi-sir\maven-folderstructure\phonepe\credits\target"/>
+    <zipfileset includes="readme.txt" dir="E:\Rushi-sir\maven-folderstructure\phonepe\credits"/>
+  </zip>
+</target>
+</project>
